@@ -1,0 +1,91 @@
+body{
+    min-height: 300vh;
+    background-color: #23ebf1;
+    background-image: url('C:\Users\\manav\\Yu-Gi-Oh Card Collector\\images\\yugioh.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:  top center;
+
+}
+
+h1{
+    color: rgb(238, 5, 5);
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#intro{
+    color: rgba(0, 0, 0);
+
+    text-align: center;
+    width: 100%;
+    margin: 120vh auto;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+}
+#cardForm{
+    position: absolute;
+    margin-top: 130vh;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: rgb(146, 96, 38);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cardName{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+#KonamiID{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+#cardType{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#cardRarity{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+button[type="submit"] {
+    
+    background-color: #5649d3; /* Green background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* No underline */
+    display: block;
+    font-size: 16px;
+    margin:0 auto;
+    cursor: pointer; /* Change cursor to pointer when hovering over the button */
+    transition-duration: 0.4s; /* Transition effect when hovering over the button */
+}
+
+button[type="submit"]:hover {
+    background-color: #f15d23; /* Change background to a different shade of green when hovering */
+}
