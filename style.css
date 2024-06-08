@@ -1,7 +1,7 @@
 body{
-    min-height: 300vh;
-    background-color: #23ebf1;
-    background-image: url('C:\Users\\manav\\Yu-Gi-Oh Card Collector\\images\\yugioh.png');
+    min-height: 200vh;
+    background-color: #23eaf1;
+    background-image: url('./images/yugioh.png');    
     background-repeat: no-repeat;
     background-size:contain;
     background-position:  top center;
@@ -20,7 +20,7 @@ h1{
 
     text-align: center;
     width: 100%;
-    margin: 120vh auto;
+    margin: 110vh auto;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
@@ -28,7 +28,7 @@ h1{
 }
 #cardForm{
     position: absolute;
-    margin-top: 130vh;
+    margin-top: 110vh;
 
     top: 50%;
     left: 50%;
@@ -62,12 +62,8 @@ h1{
     border: 1px solid rgb(0, 0, 0);
 }
 
-#cardRarity{
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0);
+#cardDetails {
+    margin-top: 10vh;
 }
 
 
@@ -89,3 +85,19 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #f15d23; /* Change background to a different shade of green when hovering */
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.card {
+    flex: 1 0 10%;
+    margin: 20px 10px; /* The first value is the top and bottom margin, the second value is the left and right margin */
+    box-sizing: border-box;
+    position: relative; /* Add this to position the button container absolutely within the card */
+
+  }
+  
