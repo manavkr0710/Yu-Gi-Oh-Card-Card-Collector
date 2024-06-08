@@ -44,13 +44,14 @@ document
   })
   .catch((error) => {
       console.error("Error:", error);
-      renderErrorMessage("Error fetching card data. Please try again later.");
+      renderErrorMessage("Error fetching card data. Please try again.");
   });
 });
 
 function renderCardDetails(cardData) {
   const cardDetailsContainer = document.getElementById("cardDetails");
 cardDetailsContainer.classList.add("card-container");
+
   try {
   
       cardData.forEach((card) => {
@@ -59,6 +60,8 @@ cardDetailsContainer.classList.add("card-container");
         cardElement.innerHTML = `
         <img src="${card.card_images[0].image_url || ''}" alt="${card.name || ''}" style="width: 200px; height: auto;" />
         `;
+        cardElement.style.marginTop = '-150px'; // Move the message up by 20px
+        cardElement.style.marginBottom = '170px'; // Add this line to your renderCardDetails function
 
         // Add an onclick event to the card element
       cardElement.onclick = function() {
@@ -114,6 +117,13 @@ cardDetailsContainer.classList.add("card-container");
 
 
 function renderErrorMessage(message) {
-const cardDetailsContainer = document.getElementById("cardDetails");
-cardDetailsContainer.innerHTML = `<p class="error">${message}</p>`;
+  var errorMessage = document.createElement('p');
+  errorMessage.textContent = message;
+  errorMessage.style.fontSize = '100px'; // Change '20px' to the size you want
+  errorMessage.style.textAlign = 'center'; // Center the text
+  errorMessage.style.color = 'red'; // Change 'red' to the color you want
+  errorMessage.style.marginTop = '-250px'; // Move the message up by 20px
+
+
+  document.body.appendChild(errorMessage);
 }
