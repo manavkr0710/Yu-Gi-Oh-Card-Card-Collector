@@ -43,7 +43,6 @@ function fetchUserData(userId) {
   });
 }
 
-
 function displayCards(userData) {
   const container = document.getElementById('cardDetails');
   container.innerHTML = ''; 
