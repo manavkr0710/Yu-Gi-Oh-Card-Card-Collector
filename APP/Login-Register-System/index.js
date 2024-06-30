@@ -14,7 +14,6 @@ let firebaseConfig = {
   // Initialize variables
    const auth = firebase.auth()
    const database = firebase.database()
-  
   // register new user
   function register () {
     // Get all our input fields
