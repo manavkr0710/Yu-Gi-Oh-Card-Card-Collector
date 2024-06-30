@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="card-info-style.css">     <!--css file for card info-->
+    <title>Card Details</title>
+</head>
+<body>
+    <h1 id="name"></h1>
+    <img id="image_url" alt="">
+    <p><strong>Description:</strong> <span id="desc"></span></p>
+    <p><strong>Card Type:</strong> <span id="type"></span></p>
+    <p><strong>Card Price on Ebay:</strong> $ <span id="ebay_price"></span></p>
+    <p><strong>Card Price on Amazon:</strong> $ <span id="amazon_price"></span></p>
+    <button class="add-button" onclick=" 
+        addCard(); // adding card to firebase database, and to card collection 
+        alert('Card Added. Go to Card Collection to view new card!');
+    " >Add Card</button>
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    
+    <script src="card-info.js"></script><!--javascript file for card info-->
+</body>
+</html>

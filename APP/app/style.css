@@ -1,11 +1,18 @@
-body{
+body {
+    font-size: 20px;
     min-height: 200vh;
-    background-color: #23eaf1;
-    background-image: url('./images/yugioh.png');    
+    background-color: #FFBE0B;
+    background-image: url('/APP/images/yugioh.png');
     background-repeat: no-repeat;
-    background-size:contain;
-    background-position:  top center;
-
+    background-size:55%; 
+    background-position: top center;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    gap: 20px; 
 }
 
 h1{
@@ -17,24 +24,20 @@ h1{
 
 #intro{
     color: rgba(0, 0, 0);
-
     text-align: center;
     width: 100%;
-    margin: 110vh auto;
-    font-size: 50px;
+    margin: 35vh auto;
+    font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-
 }
 #cardForm{
     position: absolute;
-    margin-top: 110vh;
-
+    margin-top: 60vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-    background-color: rgb(146, 96, 38);
+    background: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF);
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -63,41 +66,52 @@ h1{
 }
 
 #cardDetails {
-    margin-top: 10vh;
+    margin-top: 90vh;
 }
-
 
 button[type="submit"] {
     
-    background-color: #5649d3; /* Green background */
-    border: none; /* No border */
-    color: white; /* White text */
-    padding: 15px 32px; /* Padding around the text */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* No underline */
+    background-color: #5649d3; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
     display: block;
     font-size: 16px;
     margin:0 auto;
-    cursor: pointer; /* Change cursor to pointer when hovering over the button */
-    transition-duration: 0.4s; /* Transition effect when hovering over the button */
+    cursor: pointer; 
+    transition-duration: 0.4s; 
 }
 
 button[type="submit"]:hover {
-    background-color: #f15d23; /* Change background to a different shade of green when hovering */
+    background-color: #f15d23;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 
 .card {
     flex: 1 0 10%;
-    margin: 20px 10px; /* The first value is the top and bottom margin, the second value is the left and right margin */
+    margin: 20px 10px; 
     box-sizing: border-box;
-    position: relative; /* Add this to position the button container absolutely within the card */
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 170px;
 
   }
+  
+  .errorMessage {
+    font-size: 100px;
+    text-align: center;
+    color: red;
+    margin-top: 0px; 
+  }
+
+
+
+
   

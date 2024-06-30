@@ -1,0 +1,46 @@
+body {
+    font-size: 20px;
+    min-height: 200vh;
+    background-color: #23eaf1;
+    background-image: url('/APP/images/yugioh.png');
+    background-repeat: no-repeat;
+    background-size:55%; 
+    background-position: top center;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    gap: 20px; 
+}
+
+h1{
+    color: rgb(238, 5, 5);
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#intro{
+    color: rgba(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    margin: 45vh auto;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cardDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  row-gap: 250px;
+}
+
+.card-image {
+  width: calc(20% - 40px); 
+  margin: 10px;
+  margin-top: -250px; 
+}
+

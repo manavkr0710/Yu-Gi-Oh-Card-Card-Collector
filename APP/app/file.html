@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Gi-Oh Card Price Finder</title>
+    <link rel="stylesheet" href="style.css"> <!--css file for home page-->
+</head>
+
+    <body>
+        
+        <h1>YU-GI-OH CARD COLLECTION</h1>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- stylesheet for icons-->
+
+        
+<div class="sidebar">
+    <a href="../app/file.html"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="../Card-Collection/Card-Collection.html"><i class="fa fa-fw fa-id-card"></i> Card Collection</a>
+    <a href="#" onclick="confirmLogout(event)"><i class="fa fa-fw fa-question-circle"></i>Log out</a>
+
+</div>
+        <p id= "intro">Enter the details of the card you want to find the price of:</p>
+        <form id="cardForm">
+
+
+            <label for="KonamiID">Konami ID:</label><br>
+            <input type="text" id="KonamiID" name="KonamiID"><br>
+
+            <label for="cardName">Card Name:</label><br>
+            <input type="text" id="cardName" name="cardName"><br>
+
+           
+            <label for="cardType">Card Type:</label><br>
+            <input type="text" id="cardType" name="cardType"><br>
+            
+           
+            
+
+            <button type="submit">Find Card</button>
+        </form>
+        <div id="cardDetails" class="card-container"></div> 
+
+        <script src = "App.js"> </script> <!--js file for home page-->
+
+        
+    </body>
+
+
+</html>
