@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="index.css"> <!--css file for login-->
+    </head>
+    
+    <body>
+
+        
+        <div class="content_container">
+            <center>
+                <h1 class="title"> YU-GI-OH CARD COLLECTION LOGIN/REGISTER PAGE</h1>
+            
+                <ul class="list">
+                    <li>Create an account with your Name, Email, and Password</li>
+                    <li>If you already have an account, log in with you email and password</li>
+                    <li>Once logged in, you will be directed to the Card Finder</li>
+                </ul>
+            </center>
+           
+
+            
+            <div class="form_container">
+                <div class="form_header_container">
+                    <h2 class="form_header"> LOGIN/REGISTER </h2>
+                </div>
+
+                <div class="form_content_container">
+                    <div class="form_content_inner_container">
+                        <input type="text" id="full_name" placeholder="Full name">
+                        <input type="email" id="email" placeholder="Email">
+                        <input type="password" id="password" placeholder="New Password">
+
+
+                        <div class="button_container">
+                            
+                            <button onclick="login()">Login</button>
+                            <button onclick="register()">Register</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <script src="index.js"></script>  <!--js file for login page-->
+    <script src="APP\app\App.js"></script> <!--js file for home page-->
+
+</html>
