@@ -20,7 +20,6 @@ function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(param);
   }
-
   // Set the content based on URL parameters
   const cardName = getQueryParam('name');
   document.getElementById('name').textContent = cardName;

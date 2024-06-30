@@ -9,6 +9,7 @@ body {
     background: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF);
     font-family: Arial, sans-serif;
     overflow-y: auto;
+    
   }
   img {
     width: 200px;
