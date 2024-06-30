@@ -1,4 +1,4 @@
-ï»¿# Yu-Gi-Oh Card Price Finder
+ÿþï»¿# Yu-Gi-Oh Card Price Finder
 
  A Web App that allows users to search some of the main attributes, and most importantly, the price of a Yu Gi Oh card from a large collection of Yu Gi Oh cards.
 * Makes GET request to third-party API, to retrieve a card out of 13 000+ possibilities

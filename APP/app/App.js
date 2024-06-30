@@ -7,7 +7,6 @@ document
 
     let link = formulateURL(); // formulates link according to card search
 
-
     //fetching the card data from API
     fetch(link)
       .then((response) => response.json())
