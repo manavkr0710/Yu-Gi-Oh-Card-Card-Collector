@@ -1,14 +1,13 @@
-
-//web app configs
-let firebaseConfig = {
-    apiKey: "AIzaSyBvAGs6iFWqpz9BMqKdYdCJaMNXF6bP3yc",
-    authDomain: "yu-gi-oh-card-collector.firebaseapp.com",
-    projectId: "yu-gi-oh-card-collector",
-    storageBucket: "yu-gi-oh-card-collector.appspot.com",
-    messagingSenderId: "981886628562",
-    appId: "1:981886628562:web:117017992bb8d3899bf30b"
-  };
-  
+//YOUR WEB APP CONFIGS
+var firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  databaseURL: "YOUR_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
 
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);

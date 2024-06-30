@@ -3,16 +3,16 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 import { getDatabase, onValue, ref} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
-//web app configs
-const firebaseConfig = {
-    apiKey: "AIzaSyBvAGs6iFWqpz9BMqKdYdCJaMNXF6bP3yc",
-    authDomain: "yu-gi-oh-card-collector.firebaseapp.com",
-    databaseURL: "https://yu-gi-oh-card-collector-default-rtdb.firebaseio.com",
-    projectId: "yu-gi-oh-card-collector",
-    storageBucket: "yu-gi-oh-card-collector.appspot.com",
-    messagingSenderId: "981886628562",
-    appId: "1:981886628562:web:117017992bb8d3899bf30b"
-  };
+//YOUR WEB APP CONFIGS
+var firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  databaseURL: "YOUR_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
 // Initializing app and authentication
 const app = initializeApp(firebaseConfig);
 const auth = getAuth();
