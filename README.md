@@ -15,10 +15,10 @@
 6. On the Left sidebar, click Build>Realtime Database and click "Create Database".
 7. Under Database Options, select your location, and then for Security Rules, click "Start in Locked Mode".
 8. Go to Rules and paste in this
-   ***{
+   {
   "rules": {
     ".read": true,
     ".write": "auth != null"
   }
-}***
+
 
