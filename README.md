@@ -1,3 +1,2 @@
-# A first-level heading
-## A second-level heading
-### A third-level heading
+# Yu Gi Oh Card Collection App
+# This is web app that fetches data from YGOProDeck API
