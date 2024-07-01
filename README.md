@@ -27,7 +27,7 @@ and click "Publish".
 10. Enable Email/Password and Save.
 11. In your code editor, go to Login-Register-System > index.html and right click on the code, and click "Open with Live Server".
 
-## Images
+## Images of Web App
 ![LoginImage](https://github.com/manavkr0710/Yu-Gi-Oh-Card-Card-Collector/assets/111619717/5a700bd1-f859-48cc-b647-686bf3f91626)
 ![HomePageImage](https://github.com/manavkr0710/Yu-Gi-Oh-Card-Card-Collector/assets/111619717/a7c8d9ae-cbc3-4e73-9cd6-5a2e33b85d83)
 ![resultsImage](https://github.com/manavkr0710/Yu-Gi-Oh-Card-Card-Collector/assets/111619717/33699a2e-981f-4c0f-bdc7-b0e2631feb1c)
