@@ -14,11 +14,11 @@
 5. Under "Add Firebase SDK", only copy and paste the **CONFIGURATION DETAILS**, and replace it with the file's filler configuration details.
 6. On the Left sidebar, click Build>Realtime Database and click "Create Database".
 7. Under Database Options, select your location, and then for Security Rules, click "Start in Locked Mode".
-8. Go to Rules and paste in ***{
+8. Go to Rules and paste in "{
   "rules": {
     ".read": true,
     ".write": "auth != null"
 
-  }***
+  }"
 
 
