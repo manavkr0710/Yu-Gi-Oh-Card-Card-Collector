@@ -24,4 +24,5 @@
 and click "Publish".
 9. Then, on the left sidebar, click Build> Authentication> Sign-In method> Email/Password.
 10. Enable Email/Password and Save.
+11. In your code editor, go to Login-Register-System > index.html and right click on the code, and click "Open with Live Server".
 
