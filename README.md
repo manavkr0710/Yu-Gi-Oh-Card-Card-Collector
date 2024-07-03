@@ -18,8 +18,14 @@
 8. Go to Rules and paste in
   _{
   "rules": {
-    ".read": true,
-    ".write": "auth != null"
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "users": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid"
+      }
+    }
   }
 }_
 and click "Publish".
