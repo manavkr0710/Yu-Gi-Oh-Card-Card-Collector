@@ -16,7 +16,7 @@
 6. On the left sidebar, click Build>Realtime Database and click "Create Database".
 7. Under Database Options, select your location, and then for Security Rules, click "Start in Locked Mode".
 8. Go to Rules and paste in
-  _{
+  ***_{
   "rules": {
     ".read": "auth != null",
     ".write": "auth != null",
@@ -27,7 +27,7 @@
       }
     }
   }
-}_
+}_***
 and click "Publish".
 9. Then, on the left sidebar, click Build> Authentication> Sign-In method> Email/Password.
 10. Enable Email/Password and Save.
