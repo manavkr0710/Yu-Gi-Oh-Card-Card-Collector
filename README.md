@@ -1,3 +1,8 @@
+
+
+
+https://github.com/user-attachments/assets/700cefbb-b3c5-4015-b485-e8bd5004aa57
+
 # Yu Gi Oh Card Collection App
 ## About the Project
 - A web app written with Javascript, HTML, and CSS that allows users to search for, and add cards to their Yu-Gi-Oh collection.
